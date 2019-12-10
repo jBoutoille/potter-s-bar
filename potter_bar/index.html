@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset= 'UTF8'>
+		<title>Le Potter's Bar</title>
+		<meta description= 'page web du Potters bar'>
+		<meta name= 'viewport' content='width=device-width, initial-scale=1'>
+		<link rel= 'stylesheet' href="./css/style.css">
+	</head>
+
+	<body>
+	
+		<header>
+			<div class="head">
+				<a href="index.html"><img src="./logo/phone/logo.png" id= "logo"></a>
+				<a href="#"><img src="./icons/instagram.png" class= "instagram"></a>
+				<a href="#"><img src="./icons/facebook.png" class= "facebook"></a>
+				<div id="coord">
+					<p class="tel">03 20 20 20 20</p>		
+					<p class="desc">Bar à Thème sur Boulogne</p>
+				</div>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li class="ico"><a href="#ico1"><img src="./icons/hallows.png" class="icoCentre"></a>Coffe-art</li>
+					<li class="ico"><a href="#ico2"><img src="./icons/thunder.png" class="icoCentre"></a>Magic-Coktail</li>
+					<li class="ico"><a href="#ico3"><img src="./icons/glasses.png" class="icoCentre"></a>Bierraubeurre</li>
+					<li class="ico"><a href="#ico4"><img src="./icons/letter.png" class="icoCentre"></a>Contact</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class= 'content'>
+			<!-- Section Présentation -->
+			<section class="conteneurPresentation">
+			<div class="textePresentation">
+				<h1>Le potter’s Bar, une ambiance Magique !</h1>
+				<p>Bienvenue chez nous, amis sorciers ! Le Potter’s Bar vous accueille désormais à Boulogne, aux pieds des remparts de la vieille ville, dans une atmosphère  irrèelle et digne des plus grands films de sorcellerie !
+				<br>Vous et vos amis pourrez déguster nos fameux cocktails magiques, vous délecter de notre succulente Bierraubeurre ou encore vous régaler les yeux de nos magnifiques coffee-arts ensorcelants.
+				<br><br>Nous vous attendons nombreux.
+				<br><br><span>PS : merci de laissez vos balais à l’entrée.</span>
+				</p>
+			</div>
+			</section>
+			
+			
+			<!-- Section coffee-art -->
+			<section class="fondGris">
+				<div class="conteneurEnteteCoffee">
+							<img src="./icons/hallows.png" id="ico1">
+							<h2>Coffee-art thematique</h2>
+				</div>
+				<div class="conteneurPhotoCoffee">
+							<div><img class="photoCoffee" src="./images/coffee.jpg"></div>
+					<div class="texteCoffee">
+							<p>Notre Elfe de maison vous préparera les meilleurs et les plus jolis cafés du monde magique.
+							<br>Ce virtuose de la crème vous surprendra par son sens de l’art et du dosage, pour le plus grand plaisir de vos yeux et de vos papilles.
+							<br><br>Votre compte instagram fera rougir de jalousie tous vos followers lorsque vous publierez les photos de ces petites merveilles caféïnées.</p>
+					</div>
+				</div>
+			</section>
+			
+			<!-- PC ONLY : Image entre les 2 sections -->
+			<div class="photoRoom"></div>
+			
+			<!-- Section Cocktails -->
+			<section class="fondBlanc">
+				<div class="conteneurEnteteCocktail">
+							<img src="./icons/thunder.png" id="ico2">
+							<h2>Cocktails Magiques</h2>
+				</div>
+				<div class="conteneurPhotoCocktail">
+							<div><img class="photoCocktail" src="./images/cocktail.jpg"></div>
+					<div class="texteCocktail">
+							<p>Sous la ferrule de notre professeur de potions, venez concocter vous même vos propres cocktails. Alambics, chaudrons et fioles diverses composeront votre laboratoire, où vous laisserez libre cours à vos fantaisies.</p>
+							<br>Couleurs et goûts fantastiques se mélangeront sous vos yeux et enchanteront vos sens.<br><br>
+							<p class="citation">Attention, la maison décline toute responsabilité en cas d’explosion.</p>
+					</div>
+				</div>
+			</section>
+			
+			<!-- PC ONLY : Image2 entre les 2 sections-->
+			<div class="photoBeer"></div>
+			
+			<!-- Section Bierraubeurre-->
+			<section class="fondGris">
+				<div class="conteneurEnteteBeer">
+							<img src="./icons/glasses.png" id="ico3">
+							<h2>Delicieuses Bierraubeurres</h2>
+				</div>
+				<div class="conteneurPhotoBeer">
+							<div><img class="photoBeer" src="./images/beer.jpg"></div>
+					<div class="texteBeer">
+							<p>Quoi de plus agréable qu’une petite bierraubeurre après une dure journée de labeur ?
+							<br><br>Conviviales et délicieuses, en provenance directe du Chaudron Baveur, nos bierraubeurres réchaufferont votre corps et votre esprit.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<footer>
+				<div class="classH3">
+					<img src="./icons/letter.png" id="ico4">
+					<h3 class="#">Contactez-nous !</h3>
+				</div>
+				<form method= "post">
+					 <p class="form-p"><label for="nom"> Nom</label><input type="text"name="nom"id="nom"
+					 />
+					 </p>
+					 <p class="form-p"><label for="prenom"> Prénom</label><input type="text"name="prenom"id="prenom"
+					 />
+					 </p>
+					 <p class="form-p"><label for="email"> Email</label><input type="text"name="mail"id="mail"
+					 />
+					 </p>
+					 <p class="form-p">
+                     <label for="message">Message</label>
+					 <textarea name="message" id="messsage"> </textarea>
+                     </p>
+			 </form>
+
+			<div class="div-adresse">
+			     <p class="adresse">
+				     Le Potter's bar
+					<br>3 rue Marriette
+					<br><span class="adresse2">62200 Boulogne sur mer</span>
+				 </p>
+			</div>
+		</footer>
+		
+	</body>
+
+</html>

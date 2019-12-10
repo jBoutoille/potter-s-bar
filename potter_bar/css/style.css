@@ -1,0 +1,540 @@
+/* */																			/* */
+/* ------------------------------ VERSION SMARTPHONE ----------------------------- */	
+	
+	/* COMMUN SMARTPHONE */
+	*{
+		margin:0;
+		padding:0;
+		text-decoration:none;
+		list-style:none;
+	}
+
+	@font-face{
+		font-family: "HARRYP__";
+		src:url("../police/HARRYP__.eot") format('eot'),
+			url("../police/HARRYP__.woff") format('woff'),
+			url("../police/HARRYP__.ttf") format('truetype'),
+			url("../police/HARRYP__.svg") format('svg');
+	}
+	p {
+		font-family: Arial;
+	}
+	a {
+		
+	}
+
+	/* HEADER SMARTPHONE */
+	header {
+
+		min-height: 296px;
+	}
+	#logo{
+		float: right;
+		margin-top: 10px;
+		margin-right: 15px;
+		width: 15%;
+	}
+	.instagram {
+		width: 43px;
+		height: 43px;
+		margin-top: 10px;
+		margin-left: 17px;
+	}
+	.facebook{
+		margin-left: 10px;
+		width: 43px;
+		height: 43px;
+	}
+	.head {
+		background:url(../images/phone/banner.jpg) no-repeat;
+		background-size: 100%;
+	}
+	#coord{
+		margin-top: 90px;
+		margin-left: 12px;
+	}
+	.tel {
+		font-family: HARRYP__;
+		color: #ffffff;
+		font-size: 1.6em;
+	}
+	.desc {
+		color: #ffffff;
+	}
+	.menu {
+		width: 95%;
+		margin: 20px auto;
+	}
+	ul {
+		display: flex;
+		justify-content: space-around;
+	}
+	.ico {
+		font-style: italic;
+		font-weight: bold;
+		color: #414042;
+		font-size: 0.9em;
+	}
+	.icoCentre{
+		display: block;
+		margin: 0 auto;
+		height:50px;
+	}
+
+
+	/* BODY SMARTPHONE */
+	h1{
+		font-family: "HARRYP__";
+		font-size: 20px;
+		margin-bottom: 20px;
+		padding-top: 20px;
+		margin-top: 20px;
+		border-top-style: solid;
+		border-top-color: #DDDDDD;
+		border-top-width: 1 px;
+	}
+	h2{
+		
+		font-family: "HARRYP__";
+		font-size: 24px;
+	}
+	.conteneurPresentation{
+		margin: 10px;
+		/*width: 100%;*/
+	}
+	.textePresentation{
+		width: 100%;
+	}
+	.fondGris{
+		background-color: #F1F2F2;
+		padding: 10px;
+		margin: 0;
+		/* width: 100%; */
+	}
+	.fondBlanc{
+		background-color: #FFFFFF;
+		padding: 10px;
+		margin: 0;
+		/* width: 100%; */
+	}
+	.citation{
+		text-align: center;
+		font-style: italic;
+	}
+	.conteneurEnteteCoffee{
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: baseline;
+	}
+	#ico1{
+		margin: 10px;
+		margin-top: 0px;
+	}
+	.conteneurPhotoCoffee{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.photoCoffee{
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.texteCoffee{
+		padding: 10px;
+		width: 100%;
+	}
+	.conteneurEnteteCocktail{
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: baseline;
+	}
+	#ico2{
+		margin: 10px;
+		margin-top: 0px;
+	}
+	.conteneurPhotoCocktail{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.photoCocktail{
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.texteCocktail{
+		padding: 10px;
+		width: 100%;
+	}
+	.conteneurEnteteBeer{
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: baseline;
+	}
+	#ico3{
+		margin: 10px;
+		margin-top: 0px;
+	}
+	.conteneurPhotoBeer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.photoBeer{
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.texteBeer{
+		padding: 10px;
+		width: 100%;
+	}
+	
+	
+	
+	/* FOOTER SMARTPHONE */
+	footer {
+		background-color: black;
+		background-image: url("../icons/maraudeur.png");
+		background-repeat: no-repeat;
+		background-position-y: 220px;
+		background-position-x: -19px;
+		background-size: 40%;
+		width: 100%;
+		color: #fff;
+	}
+	form {
+		width: 60%;
+		margin: auto;
+		padding-right: 40%;
+	}
+	#ico4 {
+		padding-right: 10px;
+	}
+	h3 {
+		font-family: "HARRYP__";
+		color:#eaea5e;
+		font-size: 30px;
+		font-weight: normal;
+		padding-left: 10px;
+	}
+	.classH3 {
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		padding-top: 10px;
+	}
+	/* */
+	.form-p {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: end;
+		margin: 10px;
+		margin-left: 0px;
+	}
+	/* */
+	label{
+		font-family: "HARRYP__";
+		margin-right:10px;
+	}
+	/* */
+	input{
+		height: 20px;
+		border:none;
+		width: 150px;
+	}
+	textarea {
+		border:none;
+		height: 60px;
+		width: 150px;
+		vertical-align:top;
+	}
+	/* */
+	.div-adresse {
+		
+	}
+	.adresse {
+		font-family: "HARRYP__";
+		text-align:right;
+		padding: 25px;
+	}
+	.adresse2 {
+		padding-right: 5px;
+	}
+
+
+
+/* ------------------------------ VERSION TABLET ----------------------------- */
+@media(min-width: 641px) and (max-width: 1200px){
+	
+	/* COMMUN TABLET */
+	p {
+		
+	}
+	a {
+		
+	}
+
+	
+	
+	/* HEADER TABLET */
+	header {
+		
+	}
+	#logo{
+		
+	}
+	.facebook{
+		
+	}
+	.instagram {
+		
+	}
+	.tel {
+		
+	}
+	.desc {
+		
+	}
+	.menu {
+		
+	}
+	ul {
+		
+	}
+	.ico {
+		
+	}
+
+	
+	/* BODY TABLET */
+	h1{
+		
+	}
+	h2{
+		
+	}
+	#ico1{
+	
+	}
+	.photoCoffee{
+		
+	}
+	#ico2{
+		
+	}
+	.photoCocktail{
+		
+	}
+	.citation{
+	
+	}
+	#ico3{
+	
+	}
+	.photoBeer{
+		
+	}
+	
+
+
+	
+	/* FOOTER TABLET */
+	footer {
+		
+	}
+	form {
+		
+	}
+	h3 {
+		
+	}
+	/* */
+	form-nom {
+		
+	}
+	form-prenom {
+		
+	}
+	form-mail {
+		
+	}
+	form-message {
+		
+	}
+	/* */
+	form-nom label{
+		
+	}
+	form-prenom label{
+		
+	}
+	form-mail label{
+		
+	}
+	form-message label{
+		
+	}
+	/* */
+	form-nom input{
+		
+	}
+	form-prenom input{
+		
+	}
+	form-mail input{
+		
+	}
+	form-message input{
+		
+	}
+	/* */
+	div div-adresse {
+		
+	}
+	div p .adresse {
+		
+	}
+
+
+} /* fin du media tablet */
+
+
+
+
+/* ------------------------------ VERSION PC ----------------------------- */
+@media(min-width: 1201px){
+	
+	/* COMMUN PC */
+	p {
+		
+	}
+	a {
+		
+	}
+
+	
+	
+	/* HEADER PC */
+	header {
+		
+	}
+	#logo{
+		
+	}
+	.facebook{
+		
+	}
+	.instagram {
+		
+	}
+	.tel {
+		
+	}
+	.desc {
+		
+	}
+	.menu {
+		
+	}
+	ul {
+		
+	}
+	.ico {
+		
+	}
+
+	
+	/* BODY PC */
+	span{}
+	.photoRoom{}
+	.photoCauldron{}
+	
+	h1{
+
+	}
+	h2{
+		
+	}
+	#ico1{
+	
+	}
+	.photoCoffee{
+		
+	}
+	#ico2{
+		
+	}
+	.photoCocktail{
+		
+	}
+	.citation{
+	
+	}
+	#ico3{
+	
+	}
+	.photoBeer{
+		
+	}
+	
+
+	
+	/* FOOTER PC */
+	footer {
+		
+	}
+	form {
+		
+	}
+	h3 {
+		
+	}
+	/* */
+	form-nom {
+		
+	}
+	form-prenom {
+		
+	}
+	form-mail {
+		
+	}
+	form-message {
+		
+	}
+	/* */
+	form-nom label{
+		
+	}
+	form-prenom label{
+		
+	}
+	form-mail label{
+		
+	}
+	form-message label{
+		
+	}
+	/* */
+	form-nom input{
+		
+	}
+	form-prenom input{
+		
+	}
+	form-mail input{
+		
+	}
+	form-message input{
+		
+	}
+	/* */
+	div div-adresse {
+		
+	}
+	div p .adresse {
+		
+	}
+
+
+
+} /* fin du media PC */
